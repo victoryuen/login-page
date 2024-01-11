@@ -2,8 +2,8 @@ let loginTracker = 0;
 
 const openLogin = () =>{
   if(loginTracker == 0){
-    loginContainer.style.display = "block";
-    loginContainer.style.zindex = 1;
+    loginContainer.style.display = "flex";
+    loginContainer.style.zIndex = 9999;
     loginTracker = 1;
   }
   else if (loginTracker == 1){
