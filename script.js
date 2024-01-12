@@ -14,7 +14,7 @@ const openLogin = () =>{
 
   
 }
-
+document.querySelector("lightbox").style.display = "block";
 
 
 document.querySelector("#submit-button").addEventListener("click", () => {
