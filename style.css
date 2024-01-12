@@ -10,6 +10,8 @@
     padding: 20px;
     display:none;
     height:30%;
+
+    z-index:20;
 }
 
 #text-container{
