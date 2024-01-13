@@ -3,8 +3,9 @@ let loginTracker = 0;
 const openLogin = () =>{
   if(loginTracker == 0){
     loginContainer.style.display = "flex";
-    loginContainer.style.zIndex = 9999;
+    loginContainer.style.zIndex = 1;
     loginTracker = 1;
+    document.querySelector("#lightbox").style.display = "block";
   }
   else if (loginTracker == 1){
     loginContainer.style.display = "none";
@@ -14,7 +15,7 @@ const openLogin = () =>{
 
   
 }
-document.querySelector("lightbox").style.display = "block";
+
 
 
 document.querySelector("#submit-button").addEventListener("click", () => {
